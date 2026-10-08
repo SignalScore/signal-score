@@ -65,12 +65,12 @@ pub struct Page {
 }
 
 #[contract]
-pub struct HelloContract;
+pub struct SignalScoreContract;
 
 #[contractimpl]
-impl HelloContract {
-    pub fn hello(env: Env, to: String) -> Vec<String> {
-        vec![&env, String::from_str(&env, "Hello"), to]
+impl SignalScoreContract {
+    pub fn signal_score(env: Env, to: String) -> Vec<String> {
+        vec![&env, String::from_str(&env, "Signal Score"), to]
     }
 
     pub fn create_idea(
@@ -373,12 +373,12 @@ mod test {
     use super::*;
     use soroban_sdk::testutils::Ledger;
 
-    fn client(env: &Env) -> HelloContractClient<'_> {
-        let contract_id = env.register(HelloContract, ());
-        HelloContractClient::new(env, &contract_id)
+    fn client(env: &Env) -> SignalScoreContractClient<'_> {
+        let contract_id = env.register(SignalScoreContract, ());
+        SignalScoreContractClient::new(env, &contract_id)
     }
 
-    fn mk_idea(env: &Env, cl: &HelloContractClient) -> u32 {
+    fn mk_idea(env: &Env, cl: &SignalScoreContractClient) -> u32 {
         cl.create_idea(
             &String::from_str(env, "title"),
             &String::from_str(env, "content"),

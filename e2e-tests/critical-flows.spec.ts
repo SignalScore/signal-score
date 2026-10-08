@@ -1,7 +1,7 @@
 // e2e-tests/critical-flows.spec.ts
 import { test, expect } from '@playwright/test';
 
-test.describe('Hello World App Critical User Flows E2E', () => {
+test.describe('Signal Score App Critical User Flows E2E', () => {
   const uniqueId = Math.floor(Math.random() * 90000) + 10000;
   const username = `user_${uniqueId}`;
   const password = 'SecurePassword123!';

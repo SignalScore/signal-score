@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import {
-  HelloWorldContract,
+  SignalScoreContract,
   subscribeToIdeaEvents,
 } from "@/lib/soroban-contract";
 
@@ -130,7 +130,7 @@ export function useRealtimeIdeas(searchParams) {
       }),
     );
     try {
-      await HelloWorldContract.voteIdea(
+      await SignalScoreContract.voteIdea(
         String(ideaId),
         "connected-wallet",
         direction,

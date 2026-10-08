@@ -1,7 +1,7 @@
 join our telegram channel to build with us
 https://t.me/+sq2jJQgysWAxMjY0
 
-# 🚀 Hello-World: Decentralized Crypto Idea-Sharing Platform
+# 🚀 Signal-Score: Decentralized Crypto Idea-Sharing Platform
 
 > A community-driven platform built on STELLAR for sharing, discovering, and validating cryptocurrency insights, market analysis, and trading strategies.
 
@@ -20,9 +20,9 @@ https://t.me/+sq2jJQgysWAxMjY0
 
 ## 🎯 Project Overview
 
-**Hello-World** is a decentralized, community-driven platform designed for cryptocurrency enthusiasts, traders, analysts, and researchers to share ideas, predictions, and market analysis in a transparent and rewarding environment. Built on the STELLAR blockchain, the platform leverages Web3 technologies to create a trustless, censorship-resistant space for crypto discourse.
+**Signal-Score** is a decentralized, community-driven platform designed for cryptocurrency enthusiasts, traders, analysts, and researchers to share ideas, predictions, and market analysis in a transparent and rewarding environment. Built on the STELLAR blockchain, the platform leverages Web3 technologies to create a trustless, censorship-resistant space for crypto discourse.
 
-Unlike centralized platforms, Hello-World ensures data ownership, fair reputation systems, and direct rewards for quality contributions through smart contracts and token incentives.
+Unlike centralized platforms, Signal-Score ensures data ownership, fair reputation systems, and direct rewards for quality contributions through smart contracts and token incentives.
 
 ---
 
@@ -385,8 +385,8 @@ Build the go-to destination for crypto market analysis, where:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/hello-world-crypto.git
-   cd hello-world-crypto
+   git clone https://github.com/yourusername/signal-score-crypto.git
+   cd signal-score-crypto
    ```
 
 2. **Install dependencies**
@@ -432,7 +432,7 @@ JWT_SECRET=your_jwt_secret
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! Whether it's bug fixes, feature implementations, documentation improvements, or design enhancements, your help makes Hello-World better.
+We welcome contributions from the community! Whether it's bug fixes, feature implementations, documentation improvements, or design enhancements, your help makes Signal-Score better.
 
 ### How to Contribute
 1. Fork the repository
@@ -460,21 +460,21 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🔗 Links
 
-- **Live Demo**: [hello-world.crypto](https://hello-world.crypto)
+- **Live Demo**: [signal-score.crypto](https://signal-score.crypto)
 - **Documentation**: [docs](./docs)
-- **Issue Tracker**: [GitHub Issues](https://github.com/yourusername/hello-world-crypto/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/hello-world-crypto/discussions)
-- **Discord Community**: [Join Us](https://discord.gg/hello-world)
-- **Twitter**: [@HelloWorldCrypto](https://twitter.com/HelloWorldCrypto)
+- **Issue Tracker**: [GitHub Issues](https://github.com/yourusername/signal-score-crypto/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/yourusername/signal-score-crypto/discussions)
+- **Discord Community**: [Join Us](https://discord.gg/signal-score)
+- **Twitter**: [@SignalScoreCrypto](https://twitter.com/SignalScoreCrypto)
 
 ---
 
 ## 📧 Contact & Support
 
-- **Email**: support@hello-world.crypto
-- **Discord**: [Community Server](https://discord.gg/hello-world)
-- **GitHub Issues**: [Report Bugs](https://github.com/yourusername/hello-world-crypto/issues)
-- **Feature Requests**: [Discussions](https://github.com/yourusername/hello-world-crypto/discussions)
+- **Email**: support@signal-score.crypto
+- **Discord**: [Community Server](https://discord.gg/signal-score)
+- **GitHub Issues**: [Report Bugs](https://github.com/yourusername/signal-score-crypto/issues)
+- **Feature Requests**: [Discussions](https://github.com/yourusername/signal-score-crypto/discussions)
 
 ---
 

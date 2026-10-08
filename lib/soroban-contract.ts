@@ -9,7 +9,7 @@ const SUBSCRIPTION_CACHE = new Map<
 const CACHE_TTL_MS = 5 * 60 * 1000; // 5 minutes cache TTL
 const GRACE_PERIOD_MS = 24 * 60 * 60 * 1000; // 24 hours grace period after expiry
 
-export const HelloWorldContract = {
+export const SignalScoreContract = {
   // Sample contract address (this would be your deployed contract address on Stellar)
   address: "CDL7W46S7RO5W55T34253GF3546364FE345",
 
@@ -66,7 +66,7 @@ export const HelloWorldContract = {
       isPremium: false,
     };
     if (idea.isPremium) {
-      const canAccess = await HelloWorldContract.canAccessPremium(userAddress);
+      const canAccess = await SignalScoreContract.canAccessPremium(userAddress);
       if (!canAccess) {
         throw new Error(
           "Access denied: premium content requires an active subscription.",
@@ -119,7 +119,7 @@ export const HelloWorldContract = {
     if (cached && now - cached.fetchedAt < CACHE_TTL_MS) {
       return cached;
     }
-    const result = await HelloWorldContract.isUserSubscribed(userAddress);
+    const result = await SignalScoreContract.isUserSubscribed(userAddress);
     const entry = {
       isSubscribed: result.isSubscribed,
       expiryTimestamp: result.expiryTimestamp,
@@ -131,7 +131,7 @@ export const HelloWorldContract = {
 
   // Helper: determine if premium access is allowed (includes grace period)
   async canAccessPremium(userAddress: string) {
-    const status = await HelloWorldContract.getSubscriptionStatus(userAddress);
+    const status = await SignalScoreContract.getSubscriptionStatus(userAddress);
     if (!status.isSubscribed) return false;
     const now = Date.now();
     return now <= status.expiryTimestamp + GRACE_PERIOD_MS;

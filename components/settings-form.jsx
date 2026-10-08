@@ -45,7 +45,7 @@ export function SettingsForm({ user }) {
       <input type="hidden" name="emailNotifications" value={String(emailNotifications)} />
       <input type="hidden" name="inAppNotifications" value={String(inAppNotifications)} />
       <Card>
-        <CardHeader><CardTitle>Profile</CardTitle><CardDescription>Choose how your identity appears across Hello-World.</CardDescription></CardHeader>
+        <CardHeader><CardTitle>Profile</CardTitle><CardDescription>Choose how your identity appears across Signal-Score.</CardDescription></CardHeader>
         <CardContent className="space-y-6">
           <div className="flex items-center gap-4">
             <Avatar className="h-20 w-20"><AvatarImage src={avatar} alt="Profile preview" /><AvatarFallback>{initials}</AvatarFallback></Avatar>

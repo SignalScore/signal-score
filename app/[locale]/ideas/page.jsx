@@ -170,12 +170,12 @@ export default function IdeasPage() {
             <Link href="/" className="ml-2 flex items-center gap-2 md:ml-0">
               <Image
                 src="/logo.jpg"
-                alt="Hello-World Logo"
+                alt="Signal-Score Logo"
                 width={32}
                 height={32}
                 className="rounded-sm"
               />
-              <span className="font-bold">Hello-World</span>
+              <span className="font-bold">Signal-Score</span>
             </Link>
           </div>
           <nav className="hidden gap-6 md:flex">
@@ -222,7 +222,7 @@ export default function IdeasPage() {
       </main>
       <footer className="mt-auto border-t py-6">
         <div className="container px-4 text-sm text-muted-foreground md:px-6">
-          © {new Date().getFullYear()} Hello-World.
+          © {new Date().getFullYear()} Signal-Score.
         </div>
       </footer>
     </div>

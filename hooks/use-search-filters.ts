@@ -5,7 +5,7 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import type { SavedSearch, SearchFilters } from "@/types/search"
 import { filtersToUrlParams, parseSearchQuery } from "@/lib/search-utils"
 
-const SAVED_SEARCHES_KEY = "hello-world-saved-searches"
+const SAVED_SEARCHES_KEY = "signal-score-saved-searches"
 
 function reviveSavedSearch(value: unknown): SavedSearch | null {
   if (!value || typeof value !== "object") return null

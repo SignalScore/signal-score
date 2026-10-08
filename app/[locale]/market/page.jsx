@@ -17,8 +17,8 @@ export default function MarketPage() {
           <div className="flex items-center">
             <MobileNav />
             <Link href="/" className="flex items-center gap-2 ml-2 md:ml-0">
-              <Image src="/placeholder-logo.svg" alt="Hello-World Logo" width={32} height={32} className="rounded-sm" />
-              <span className="font-bold">Hello-World</span>
+              <Image src="/placeholder-logo.svg" alt="Signal-Score Logo" width={32} height={32} className="rounded-sm" />
+              <span className="font-bold">Signal-Score</span>
             </Link>
           </div>
           <nav className="hidden md:flex gap-6">
@@ -138,9 +138,9 @@ export default function MarketPage() {
       <footer className="border-t py-6 md:py-0">
         <div className="container flex flex-col items-center justify-between gap-4 md:h-16 md:flex-row px-4 md:px-6">
           <div className="flex items-center gap-2">
-            <Image src="/placeholder-logo.svg" alt="Hello-World Logo" width={24} height={24} className="rounded-sm" />
+            <Image src="/placeholder-logo.svg" alt="Signal-Score Logo" width={24} height={24} className="rounded-sm" />
             <p className="text-xs sm:text-sm text-muted-foreground">
-              &copy; {new Date().getFullYear()} Hello-World. All rights reserved.
+              &copy; {new Date().getFullYear()} Signal-Score. All rights reserved.
             </p>
           </div>
           <div className="flex items-center gap-4">

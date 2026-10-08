@@ -8,8 +8,8 @@ import { revalidatePath } from "next/cache"
 // Simple in-memory user store (in a real app, use a database)
 
 // In a real app, this would be a database
-const authStore = globalThis.__helloWorldAuthStore ?? { users: {}, sessions: {} }
-globalThis.__helloWorldAuthStore = authStore
+const authStore = globalThis.__signalScoreAuthStore ?? { users: {}, sessions: {} }
+globalThis.__signalScoreAuthStore = authStore
 const users = authStore.users
 
 // Session management

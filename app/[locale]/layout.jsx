@@ -11,7 +11,7 @@ export function generateStaticParams() {
 }
 
 export const metadata = {
-  title: "Hello-World | Crypto Idea-Sharing Platform",
+  title: "Signal-Score | Crypto Idea-Sharing Platform",
   description:
     "A decentralized, community-driven platform for crypto ideas sharing and insights built on Stellar",
   generator: "Divineifed1",

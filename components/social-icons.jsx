@@ -6,7 +6,7 @@ export function SocialIcons() {
   return (
     <div className="flex items-center gap-2">
       <Link
-        href="https://github.com/hello-world-crypto"
+        href="https://github.com/signal-score-crypto"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -16,7 +16,7 @@ export function SocialIcons() {
         </Button>
       </Link>
       <Link
-        href="https://twitter.com/helloworldcrypto"
+        href="https://twitter.com/signalscorecrypto"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -26,7 +26,7 @@ export function SocialIcons() {
         </Button>
       </Link>
       <Link
-        href="https://linkedin.com/company/hello-world-crypto"
+        href="https://linkedin.com/company/signal-score-crypto"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -36,7 +36,7 @@ export function SocialIcons() {
         </Button>
       </Link>
       <Link
-        href="https://discord.gg/hello-world-crypto"
+        href="https://discord.gg/signal-score-crypto"
         target="_blank"
         rel="noopener noreferrer"
       >
